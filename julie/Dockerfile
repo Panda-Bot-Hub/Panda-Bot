@@ -1,4 +1,4 @@
-FROM quay.io/lyfe00011/test:beta
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/Panda-Bot-Hub/Panda-Bot /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
